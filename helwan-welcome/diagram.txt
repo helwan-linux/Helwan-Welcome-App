@@ -1,0 +1,196 @@
+helwan-welcome/
+📁 helwan-welcome/
+├── 📄 CONTRIBUTING.md
+├── 📄 LICENSE
+├── 📄 PKGBUILD
+├── 📄 README.md
+├── 📁 etc
+│   └── 📁 skel
+│       └── 📁 .config
+│           └── 📁 helwan-welcome-app
+│               └── 📄 settings.conf
+├── 📄 readme.install
+└── 📁 usr
+    ├── 📁 local
+    │   └── 📁 bin
+    │       ├── 📄 helwan-welcome-app
+    │       └── 📄 helwan-welcome-app.desktop
+    └── 📁 share
+        ├── 📁 applications
+        │   └── 📄 helwan-welcome-app.desktop
+        ├── 📁 helwan-welcome-app
+        │   ├── 📁 __pycache__
+        │   │   ├── 📄 themes.cpython-313.pyc
+        │   │   ├── 📄 translations.cpython-313.pyc
+        │   │   ├── 📄 utils.cpython-313.pyc
+        │   │   └── 📄 welcome_app.cpython-313.pyc
+        │   ├── 📄 helwan-welcome-app.desktop
+        │   ├── 📁 locales
+        │   │   ├── 📁 ar_EG.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 bg_BG.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 bn_BD.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 ca_ES.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 da_DK.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 de_DE.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 en_US.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 es_ES.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 fa_IR.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 fi_FI.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 fil_PH.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 fr_FR.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 he_IL.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 hi_HI.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 hu_HU.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 id_ID.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 it_IT.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 ja_JP.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 ko_KR.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 lv_LV.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 mn_MN.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 mt_MT.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 nb_NO.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 nl_NL.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 pl_PL.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 pt_PT.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 ro_RO.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 ru_RU.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 sk_SK.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 sq_AL.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 sr_RS.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 sv_SE.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 ta_IN.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 th_TH.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 tr_TR.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 uk_UA.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 ur_PK.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   ├── 📁 vi_VN.UTF-8
+        │   │   │   └── 📁 LC_MESSAGES
+        │   │   │       ├── 📄 base.mo
+        │   │   │       └── 📄 base.po
+        │   │   └── 📁 zh_CN.UTF-8
+        │   │       └── 📁 LC_MESSAGES
+        │   │           ├── 📄 base.mo
+        │   │           └── 📄 base.po
+        │   ├── 📄 main.py
+        │   ├── 📁 sources
+        │   │   └── 📄 logo.png
+        │   ├── 📄 themes.py
+        │   ├── 📄 translations.py
+        │   ├── 📄 utils.py
+        │   └── 📄 welcome_app.py
+        └── 📁 hicolor
+            ├── 📁 512x512
+            │   └── 📄 helwan-welcom.png
+            ├── 📄 index.theme
+            └── 📁 scalable
+                └── 📄 helwan-welcom.png
